@@ -97,6 +97,7 @@ public class Tic_Tac_Toe {
                 break;
             default:
                 System.out.println("enter again(invalid entry)");
+                choice(gameBoard);
                 break;
 
         }
@@ -187,6 +188,7 @@ public class Tic_Tac_Toe {
                 break;
             default:
                 System.out.println("enter again(invalid entry)");
+                choice1(gameBoard);
                 break;
 
         }
